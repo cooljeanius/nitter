@@ -18,7 +18,7 @@ updates:
     directory: "/tests"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "actions"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"

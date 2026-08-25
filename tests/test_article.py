@@ -174,7 +174,8 @@ class ArticleMediaTest(BaseTestCase):
         self.assert_element_visible(ArticleSelectors.cover)
         src = self.get_attribute(ArticleSelectors.cover, 'src')
         self.assertIn('/pic/', src)
-        self.assertFalse(src.startswith('https://pbs.twimg.com'))
+        host = urlparse(src).hostname
+        self.assertNotEqual((host or '').lower(), 'pbs.twimg.com')
 
     def test_embedded_tweet(self):
         self.open_nitter('i/article/2064755789391110154')

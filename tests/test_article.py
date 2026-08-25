@@ -1,5 +1,6 @@
 from base import BaseTestCase
 from parameterized import parameterized
+from urllib.parse import urlparse
 
 
 class ArticleSelectors:
@@ -165,7 +166,8 @@ class ArticleMediaTest(BaseTestCase):
         img = self.find_element(f'{ArticleSelectors.media} img')
         src = img.get_attribute('src')
         self.assertIn('/pic/', src)
-        self.assertFalse(src.startswith('https://pbs.twimg.com'))
+        host = urlparse(src).hostname
+        self.assertNotEqual((host or '').lower(), 'pbs.twimg.com')
 
     def test_cover_image_proxied(self):
         self.open_nitter('i/article/2064689664213041529')

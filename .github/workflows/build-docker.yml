@@ -12,6 +12,10 @@ concurrency:
   group: docker-publish-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  packages: write
+
 env:
   IMAGE: zedeus/nitter
 

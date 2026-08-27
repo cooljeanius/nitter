@@ -94,7 +94,7 @@ jobs:
         run: command -v poetry >/dev/null 2>&1 || pipx install poetry
 
       - name: Setup Python (3.14) with Poetry cache
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.14"
           cache: poetry

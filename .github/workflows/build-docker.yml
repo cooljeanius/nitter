@@ -104,12 +104,11 @@ jobs:
       - name: Create manifest list and push
         working-directory: ${{ runner.temp }}/digests
         run: |
-          # shellcheck disable=SC2046
           docker buildx imagetools create \
             -t ${{ env.IMAGE }}:latest \
             -t ${{ env.IMAGE }}:latest-arm64 \
             -t ${{ env.IMAGE }}:${{ github.sha }} \
-            $(printf '${{ env.IMAGE }}@sha256:%s ' *)
+            "$(printf '${{ env.IMAGE }}@sha256:%s ' *)" || (pwd && ls && echo "FIXME")
 
       - name: Inspect image
         run: docker buildx imagetools inspect ${{ env.IMAGE }}:${{ github.sha }}

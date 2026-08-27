@@ -15,6 +15,7 @@ concurrency:
 permissions:
   contents: read
   packages: write
+  actions: read
 
 env:
   IMAGE: zedeus/nitter

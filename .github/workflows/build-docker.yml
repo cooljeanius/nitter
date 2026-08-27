@@ -16,6 +16,7 @@ permissions:
   contents: read
   packages: write
   actions: read
+  artifact-metadata: read
 
 env:
   IMAGE: zedeus/nitter

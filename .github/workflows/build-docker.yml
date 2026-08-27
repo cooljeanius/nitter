@@ -13,10 +13,10 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
   packages: write
-  actions: read
-  artifact-metadata: read
+  actions: write
+  artifact-metadata: write
 
 env:
   IMAGE: zedeus/nitter

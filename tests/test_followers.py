@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: AGPL-3.0-only
-from base import BaseTestCase, Timeline
+from base import BaseTestCase
 
 
 class FollowersTest(BaseTestCase):

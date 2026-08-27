@@ -1,4 +1,4 @@
-from base import BaseTestCase, Tweet, Conversation, get_timeline_tweet
+from base import BaseTestCase, Conversation, Tweet, get_timeline_tweet
 from parameterized import parameterized
 
 # image = tweet + 'div.attachments.media-body > div > div > a > div > img'

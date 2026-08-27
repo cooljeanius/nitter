@@ -1,8 +1,8 @@
 import os
 import unittest
+
 import requests
 from base import BaseTestCase, Media
-from parameterized import parameterized
 
 
 class Embed:

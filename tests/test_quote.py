@@ -1,4 +1,4 @@
-from base import BaseTestCase, Quote, Conversation
+from base import BaseTestCase, Conversation, Quote
 from parameterized import parameterized
 
 text = [

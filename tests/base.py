@@ -1,7 +1,7 @@
 from seleniumbase import BaseCase
 
 
-class Card(object):
+class Card:
     def __init__(self, tweet=''):
         card = tweet + '.card '
         self.link = card + 'a'
@@ -11,7 +11,7 @@ class Card(object):
         self.image = card + '.card-image'
 
 
-class Quote(object):
+class Quote:
     def __init__(self, tweet=''):
         quote = tweet + '.quote '
         namerow = quote + '.fullname-and-username '
@@ -23,7 +23,7 @@ class Quote(object):
         self.unavailable = quote + '.quote.unavailable'
 
 
-class Tweet(object):
+class Tweet:
     def __init__(self, tweet=''):
         namerow = tweet + '.tweet-header '
         self.fullname = namerow + '.fullname'
@@ -34,7 +34,7 @@ class Tweet(object):
         self.reply = tweet + '.replying-to'
 
 
-class Profile(object):
+class Profile:
     fullname = '.profile-card-fullname'
     username = '.profile-card-username'
     protected = '.icon-lock'
@@ -47,7 +47,7 @@ class Profile(object):
     mediaCount = '.photo-rail-header'
 
 
-class Timeline(object):
+class Timeline:
     newest = 'div[class="timeline-item show-more"]'
     older = 'div[class="show-more"]'
     end = '.timeline-end'
@@ -63,12 +63,12 @@ class Timeline(object):
     gallery_view = '.timeline.media-gallery-view'
 
 
-class Search(object):
+class Search:
     tab_item = '.tab .tab-item'
     tab_active = '.tab .tab-item.active a'
 
 
-class Conversation(object):
+class Conversation:
     main = '.main-tweet'
     before = '.before-tweet'
     after = '.after-tweet'
@@ -80,7 +80,7 @@ class Conversation(object):
     reply_sort_active = '.reply-sort-option.active'
 
 
-class Poll(object):
+class Poll:
     votes = '.poll-info'
     choice = '.poll-meter'
     value = 'poll-choice-value'
@@ -88,7 +88,7 @@ class Poll(object):
     leader = 'leader'
 
 
-class Media(object):
+class Media:
     container = '.attachments'
     row = '.gallery-row'
     image = '.still-image'
@@ -98,10 +98,10 @@ class Media(object):
 
 class BaseTestCase(BaseCase):
     def setUp(self):
-        super(BaseTestCase, self).setUp()
+        super().setUp()
 
     def tearDown(self):
-        super(BaseTestCase, self).tearDown()
+        super().tearDown()
 
     def open_nitter(self, page=''):
         self.open(f'http://localhost:8080/{page}')

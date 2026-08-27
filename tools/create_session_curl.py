@@ -23,8 +23,9 @@ Output:
   {"kind": "cookie", "username": "...", "id": "...", "auth_token": "...", "ct0": "..."}
 """
 
-import sys
 import json
+import sys
+
 import pyotp
 from curl_cffi import requests
 

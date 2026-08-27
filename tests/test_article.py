@@ -1,6 +1,7 @@
+from urllib.parse import urlparse
+
 from base import BaseTestCase
 from parameterized import parameterized
-from urllib.parse import urlparse
 
 
 class ArticleSelectors:

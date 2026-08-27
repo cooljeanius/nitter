@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-import requests
 import json
 import sys
-import pyotp
+
 import cloudscraper
+import pyotp
+import requests
 
 # NOTE: pyotp, requests and cloudscraper are dependencies
 # > pip install pyotp requests cloudscraper

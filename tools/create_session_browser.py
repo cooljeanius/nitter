@@ -27,10 +27,9 @@ import shutil
 import sys
 import tempfile
 
+import pyotp
 import zendriver as zd
 from zendriver import cdp
-import pyotp
-
 
 # Disable password manager to prevent the "Save password?" bubble from
 # stealing focus during automated login.

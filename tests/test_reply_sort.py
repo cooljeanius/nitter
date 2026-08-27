@@ -1,6 +1,5 @@
-from parameterized import parameterized
-
 from base import BaseTestCase, Conversation
+from parameterized import parameterized
 
 sort_modes = [
     ['jack/status/20', 'Relevant'],

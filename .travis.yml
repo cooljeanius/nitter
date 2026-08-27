@@ -1,3 +1,4 @@
+---
 jobs:
   include:
     - stage: test

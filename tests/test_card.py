@@ -1,8 +1,7 @@
 import os
-import unittest
+
 from base import BaseTestCase, Card, Conversation
 from parameterized import parameterized
-
 
 card = [
     ['nim_lang/status/1136652293510717440',

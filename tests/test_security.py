@@ -1,4 +1,5 @@
 import subprocess
+
 from parameterized import parameterized
 
 BASE_URL = 'http://localhost:8080'

@@ -1,9 +1,8 @@
 import os
-import unittest
-from base import BaseTestCase, Poll, Media
+
+from base import BaseTestCase, Media, Poll
 from parameterized import parameterized
 from selenium.webdriver.common.by import By
-import pytest
 
 poll = [
     ['nim_lang/status/1064219801499955200', 'Style insensitivity', '91', 1, [

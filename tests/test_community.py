@@ -1,7 +1,6 @@
 from base import BaseTestCase
 from parameterized import parameterized
 
-
 COMMUNITY_ID = '1493446837214187523'
 COMMUNITY_PATH = f'i/communities/{COMMUNITY_ID}'
 

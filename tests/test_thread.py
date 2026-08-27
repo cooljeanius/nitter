@@ -1,7 +1,6 @@
-from parameterized import parameterized
 import pytest
-
 from base import BaseTestCase, Conversation
+from parameterized import parameterized
 
 thread = [
     [

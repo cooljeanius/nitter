@@ -2,7 +2,7 @@ from base import BaseTestCase, Profile
 from parameterized import parameterized
 
 
-class AboutAccount(object):
+class AboutAccount:
     header = '.about-account-header'
     name = '.about-account-name'
     body = '.about-account-body'

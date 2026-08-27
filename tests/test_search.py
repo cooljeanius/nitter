@@ -1,6 +1,5 @@
-from parameterized import parameterized
-
 from base import BaseTestCase, Search
+from parameterized import parameterized
 
 # [url, expected active tab label]
 active_tabs = [

@@ -111,4 +111,6 @@ jobs:
             "$(printf '${{ env.IMAGE }}@sha256:%s ' *)" || (pwd && ls && echo "FIXME")
 
       - name: Inspect image
-        run: docker buildx imagetools inspect ${{ env.IMAGE }}:${{ github.sha }}
+        run: |
+          docker buildx imagetools inspect ${{ env.IMAGE }}:${{ github.sha }} || \
+            (which docker && stat "$(which docker)" && echo "FIXME")

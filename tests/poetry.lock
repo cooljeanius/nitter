@@ -1298,14 +1298,14 @@ websocket-client = ">=1.8.0,<2.0"
 
 [[package]]
 name = "seleniumbase"
-version = "4.52.1"
+version = "4.52.3"
 description = "SeleniumBase is a framework for web crawling, scraping, and testing. Supports pytest. CDP Mode adds stealth. Includes many tools."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "seleniumbase-4.52.1-py3-none-any.whl", hash = "sha256:a21a9eb44cabf896a1d21edf7b4569f282e521f913efd69c1becd9202ee35e30"},
-    {file = "seleniumbase-4.52.1.tar.gz", hash = "sha256:b6c0d67c32465e888231a06839197e73165518dbb06165f7af6b42dfa925a362"},
+    {file = "seleniumbase-4.52.3-py3-none-any.whl", hash = "sha256:2a3105b4c83c60e032945f3f35b556025f2d2d01c2d6506acd81c055be38e13a"},
+    {file = "seleniumbase-4.52.3.tar.gz", hash = "sha256:5ea823916bd1ba89af2fcaea1cea9ebb2c074e08f9a97591088f47528eed9bde"},
 ]
 
 [package.dependencies]
@@ -1319,7 +1319,7 @@ cssselect = ">=1.5.0,<2"
 exceptiongroup = ">=1.3.1"
 execnet = "2.1.2"
 fasteners = ">=0.20"
-filelock = ">=3.32.3"
+filelock = ">=3.32.4"
 h11 = "0.16.0"
 idna = ">=3.19"
 iniconfig = "2.3.0"
@@ -1335,7 +1335,7 @@ parse = ">=1.22.1"
 parse-type = ">=0.6.6"
 pdbp = ">=1.8.2"
 pip = ">=26.2.1"
-platformdirs = ">=4.11.3"
+platformdirs = ">=4.11.4"
 pluggy = "1.6.0"
 psutil = ">=7.2.2"
 PyAutoGUI = {version = ">=0.9.54", markers = "platform_system == \"Linux\""}
@@ -1374,6 +1374,7 @@ wsproto = ">=1.3.2,<1.4.0"
 allure = ["allure-behave (>=2.16.0)", "allure-pytest (>=2.16.0)", "allure-python-commons (>=2.16.0)"]
 coverage = ["coverage (>=7.15.4)", "pytest-cov (>=7.1.0)"]
 flake8 = ["flake8 (==7.3.0)", "mccabe (==0.7.0)", "pycodestyle (==2.14.0)", "pyflakes (==3.4.0)"]
+mcp = ["mcp[cli] (>=2.0.0,<3.0.0)"]
 mss = ["mss (==10.2.0)"]
 pdfminer = ["cffi (==2.1.1)", "cryptography (==50.0.0)", "pdfminer.six (==20260107)", "pycparser (==3.0)"]
 pillow = ["Pillow (>=12.3.0)"]
@@ -1381,6 +1382,7 @@ pip-system-certs = ["pip-system-certs (>=4.0) ; platform_system == \"Windows\""]
 playwright = ["greenlet (>=3.5.5)", "playwright (>=1.62.0)", "pyee (>=13.0.1)"]
 proxy = ["proxy.py (==2.4.3)"]
 pyautogui = ["PyAutoGUI (>=0.9.54) ; platform_system != \"Linux\""]
+uv = ["uv (>=0.12.5)"]
 
 [[package]]
 name = "setuptools"
@@ -1704,4 +1706,4 @@ h11 = ">=0.16.0,<1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.14"
-content-hash = "94d29aa007924ca02ac4ef9bcd9a9f7fbfc3a998fe0e070b4805921830f44c76"
+content-hash = "9380608be335a2479841591d8e107d04baaf1167b6531bc55e32e07f993d7909"

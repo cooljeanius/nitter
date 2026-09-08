@@ -416,14 +416,14 @@ files = [
 
 [[package]]
 name = "filelock"
-version = "3.32.4"
+version = "3.32.5"
 description = "A platform independent file lock."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "filelock-3.32.4-py3-none-any.whl", hash = "sha256:22e58ca3b1ae3b98993b762d7338367ae64fe50252bf78d59da3bfebcdf1cedd"},
-    {file = "filelock-3.32.4.tar.gz", hash = "sha256:2bde2e4cf732e0153406d8a7bc80620ecf5e621fe0d25e41143c4e3b4733ff30"},
+    {file = "filelock-3.32.5-py3-none-any.whl", hash = "sha256:142cd9fa77a872c5e78c62329a0d15278fadc686eb89e760017968961a4fd6b2"},
+    {file = "filelock-3.32.5.tar.gz", hash = "sha256:f6a6a28f743f9b95ce19db5abe0f376f75eb56517dff21e1a4751e2657d3e83d"},
 ]
 
 [[package]]
@@ -752,14 +752,14 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "4.11.4"
+version = "4.11.7"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "platformdirs-4.11.4-py3-none-any.whl", hash = "sha256:e34ff91a24bcddc6d939b878bdf3f5c437c9c46fe9e212b1bf455fdf1ee57586"},
-    {file = "platformdirs-4.11.4.tar.gz", hash = "sha256:f3373be828247211d0febabea97e238c3dfde8a60b3c90c32756fb52cb21556d"},
+    {file = "platformdirs-4.11.7-py3-none-any.whl", hash = "sha256:8a02cb259042c79d1cd0450facc2fe6dc9d303ae7901afbe33bf8ea0b188cef6"},
+    {file = "platformdirs-4.11.7.tar.gz", hash = "sha256:4f41487eeeeeb07f3a6625e61d9bc0ae6809f92d3386dbd74392fbb76108104d"},
 ]
 
 [[package]]
@@ -1278,14 +1278,14 @@ flake8 = ["flake8 (==5.0.4) ; python_version < \"3.9\"", "flake8 (==7.1.1) ; pyt
 
 [[package]]
 name = "selenium"
-version = "4.47.0"
+version = "4.48.0"
 description = "Official Python bindings for Selenium WebDriver"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "selenium-4.47.0-py3-none-any.whl", hash = "sha256:2eac6b8e7c017f57ecc40820383da8881a6fd7a90ea555c1b0af322f2344b347"},
-    {file = "selenium-4.47.0.tar.gz", hash = "sha256:4f6667c23080646e045fb91d2039687e88f549d667961f6ce85832b17384b68e"},
+    {file = "selenium-4.48.0-py3-none-any.whl", hash = "sha256:b2a1d77019db92513e59aa2376710fe3d42b65a4d493dccd0c799c1a0d574d93"},
+    {file = "selenium-4.48.0.tar.gz", hash = "sha256:045c1ec054c94e3be6c10febc509aa513b4c05e9146d1a9cf3de5375ec6ca2a1"},
 ]
 
 [package.dependencies]
@@ -1298,14 +1298,14 @@ websocket-client = ">=1.8.0,<2.0"
 
 [[package]]
 name = "seleniumbase"
-version = "4.52.3"
+version = "4.53.3"
 description = "SeleniumBase is a framework for web crawling, scraping, and testing. Supports pytest. CDP Mode adds stealth. Includes many tools."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "seleniumbase-4.52.3-py3-none-any.whl", hash = "sha256:2a3105b4c83c60e032945f3f35b556025f2d2d01c2d6506acd81c055be38e13a"},
-    {file = "seleniumbase-4.52.3.tar.gz", hash = "sha256:5ea823916bd1ba89af2fcaea1cea9ebb2c074e08f9a97591088f47528eed9bde"},
+    {file = "seleniumbase-4.53.3-py3-none-any.whl", hash = "sha256:1ffb9ce5d7cb8dde0c7771af6f8d603f4c20ccc7d3d3562cc78b8d70728867d6"},
+    {file = "seleniumbase-4.53.3.tar.gz", hash = "sha256:976e92c614c7732b7a956e8b2f3ce5fd23f8863a0095ce8898900ffb78682892"},
 ]
 
 [package.dependencies]
@@ -1319,7 +1319,7 @@ cssselect = ">=1.5.0,<2"
 exceptiongroup = ">=1.3.1"
 execnet = "2.1.2"
 fasteners = ">=0.20"
-filelock = ">=3.32.4"
+filelock = ">=3.32.5"
 h11 = "0.16.0"
 idna = ">=3.19"
 iniconfig = "2.3.0"
@@ -1335,7 +1335,7 @@ parse = ">=1.22.1"
 parse-type = ">=0.6.6"
 pdbp = ">=1.8.2"
 pip = ">=26.2.1"
-platformdirs = ">=4.11.4"
+platformdirs = ">=4.11.5"
 pluggy = "1.6.0"
 psutil = ">=7.2.2"
 PyAutoGUI = {version = ">=0.9.54", markers = "platform_system == \"Linux\""}
@@ -1354,7 +1354,7 @@ pyyaml = ">=6.0.3"
 requests = ">=2.34.2,<2.35.0"
 rich = ">=15.0.0,<16"
 sbvirtualdisplay = ">=1.4.0"
-selenium = "4.47.0"
+selenium = "4.48.0"
 setuptools = ">=84.0.0"
 six = ">=1.17.0"
 sniffio = "1.3.1"
@@ -1365,24 +1365,24 @@ trio = ">=0.34.0,<1"
 trio-websocket = ">=0.12.2,<0.13.0"
 typing-extensions = ">=4.16.0"
 urllib3 = ">=2.7.0,<3"
-websocket-client = ">=1.9.0,<1.10.0"
+websocket-client = ">=1.9.2,<1.10.0"
 websockets = {version = ">=16.1.1", markers = "python_version >= \"3.11\""}
 wheel = ">=0.48.0"
 wsproto = ">=1.3.2,<1.4.0"
 
 [package.extras]
 allure = ["allure-behave (>=2.16.0)", "allure-pytest (>=2.16.0)", "allure-python-commons (>=2.16.0)"]
-coverage = ["coverage (>=7.15.4)", "pytest-cov (>=7.1.0)"]
+coverage = ["coverage (>=7.16.0)", "pytest-cov (>=7.1.0)"]
 flake8 = ["flake8 (==7.3.0)", "mccabe (==0.7.0)", "pycodestyle (==2.14.0)", "pyflakes (==3.4.0)"]
-mcp = ["mcp[cli] (>=2.0.0,<3.0.0)"]
+mcp = ["mcp[cli] (>=2.1.1,<3.0.0)"]
 mss = ["mss (==10.2.0)"]
-pdfminer = ["cffi (==2.1.1)", "cryptography (==50.0.0)", "pdfminer.six (==20260107)", "pycparser (==3.0)"]
+pdfminer = ["cffi (==2.1.1)", "cryptography (==50.0.1)", "pdfminer.six (==20260107)", "pycparser (==3.0)"]
 pillow = ["Pillow (>=12.3.0)"]
 pip-system-certs = ["pip-system-certs (>=4.0) ; platform_system == \"Windows\""]
 playwright = ["greenlet (>=3.5.5)", "playwright (>=1.62.0)", "pyee (>=13.0.1)"]
 proxy = ["proxy.py (==2.4.3)"]
 pyautogui = ["PyAutoGUI (>=0.9.54) ; platform_system != \"Linux\""]
-uv = ["uv (>=0.12.5)"]
+uv = ["uv (>=0.12.8)"]
 
 [[package]]
 name = "setuptools"
@@ -1540,14 +1540,14 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 
 [[package]]
 name = "websocket-client"
-version = "1.9.0"
+version = "1.9.2"
 description = "WebSocket client for Python with low level API options"
 optional = false
-python-versions = ">=3.9"
+python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "websocket_client-1.9.0-py3-none-any.whl", hash = "sha256:af248a825037ef591efbf6ed20cc5faa03d3b47b9e5a2230a529eeee1c1fc3ef"},
-    {file = "websocket_client-1.9.0.tar.gz", hash = "sha256:9e813624b6eb619999a97dc7958469217c3176312b3a16a4bd1bc7e08a46ec98"},
+    {file = "websocket_client-1.9.2-py3-none-any.whl", hash = "sha256:e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce"},
+    {file = "websocket_client-1.9.2.tar.gz", hash = "sha256:0fcb57545848be86992e128218fd96dd87a6769ffdb1a968dff79632b85604d0"},
 ]
 
 [package.extras]
@@ -1706,4 +1706,4 @@ h11 = ">=0.16.0,<1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.14"
-content-hash = "9380608be335a2479841591d8e107d04baaf1167b6531bc55e32e07f993d7909"
+content-hash = "4704762615f7bbb78c9eda7dc7e3919ac604b8a4c40dfc37eb0bc0ca3ed7a7db"

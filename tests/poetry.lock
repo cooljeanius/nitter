@@ -416,14 +416,14 @@ files = [
 
 [[package]]
 name = "filelock"
-version = "3.32.5"
+version = "4.0.1"
 description = "A platform independent file lock."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "filelock-3.32.5-py3-none-any.whl", hash = "sha256:142cd9fa77a872c5e78c62329a0d15278fadc686eb89e760017968961a4fd6b2"},
-    {file = "filelock-3.32.5.tar.gz", hash = "sha256:f6a6a28f743f9b95ce19db5abe0f376f75eb56517dff21e1a4751e2657d3e83d"},
+    {file = "filelock-4.0.1-py3-none-any.whl", hash = "sha256:481a321a27bef441e23c53371c6abc8d7d16e26b97090074ba44f7538a3fd55a"},
+    {file = "filelock-4.0.1.tar.gz", hash = "sha256:fdefc3f3e87716d855ae2b732c1cfd521dd99799ef2b4d00e8c0d4dcdc7cc94b"},
 ]
 
 [[package]]
@@ -752,14 +752,14 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "4.11.7"
+version = "4.11.12"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "platformdirs-4.11.7-py3-none-any.whl", hash = "sha256:8a02cb259042c79d1cd0450facc2fe6dc9d303ae7901afbe33bf8ea0b188cef6"},
-    {file = "platformdirs-4.11.7.tar.gz", hash = "sha256:4f41487eeeeeb07f3a6625e61d9bc0ae6809f92d3386dbd74392fbb76108104d"},
+    {file = "platformdirs-4.11.12-py3-none-any.whl", hash = "sha256:b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254"},
+    {file = "platformdirs-4.11.12.tar.gz", hash = "sha256:e8dc1cb58f1153fd7f61db1374317770baababec2480b37b8f01c6cc25b45267"},
 ]
 
 [[package]]
@@ -1278,14 +1278,14 @@ flake8 = ["flake8 (==5.0.4) ; python_version < \"3.9\"", "flake8 (==7.1.1) ; pyt
 
 [[package]]
 name = "selenium"
-version = "4.48.0"
+version = "4.49.0"
 description = "Official Python bindings for Selenium WebDriver"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "selenium-4.48.0-py3-none-any.whl", hash = "sha256:b2a1d77019db92513e59aa2376710fe3d42b65a4d493dccd0c799c1a0d574d93"},
-    {file = "selenium-4.48.0.tar.gz", hash = "sha256:045c1ec054c94e3be6c10febc509aa513b4c05e9146d1a9cf3de5375ec6ca2a1"},
+    {file = "selenium-4.49.0-py3-none-any.whl", hash = "sha256:0d1de9ec6977aa2d5f766d923d5076fdffa91681a8d4ffc9e3381a36839a20f2"},
+    {file = "selenium-4.49.0.tar.gz", hash = "sha256:c9d91274e5f55835e12b524adf1f231739ea811a8866d810e5bb42ba87cd8eda"},
 ]
 
 [package.dependencies]
@@ -1298,14 +1298,14 @@ websocket-client = ">=1.8.0,<2.0"
 
 [[package]]
 name = "seleniumbase"
-version = "4.53.7"
+version = "4.54.6"
 description = "SeleniumBase is a framework for web crawling, scraping, and testing. Supports pytest. CDP Mode adds stealth. Includes many tools."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "seleniumbase-4.53.7-py3-none-any.whl", hash = "sha256:29e696c7baa0c178f43a43b7374e436426cf78bd6b43a8819db4f46c00c19f3d"},
-    {file = "seleniumbase-4.53.7.tar.gz", hash = "sha256:e0f31c71847fc612d0be0b646f5f1387d0f700060c932522911097f68db27024"},
+    {file = "seleniumbase-4.54.6-py3-none-any.whl", hash = "sha256:a7135f3afef6ac3986b5673c38203c588f0b514a15a17bebc6b604e3e629048a"},
+    {file = "seleniumbase-4.54.6.tar.gz", hash = "sha256:3cebd1af61a5b5d90861454aad8ad575421f8b291197863f1d09eda418caa516"},
 ]
 
 [package.dependencies]
@@ -1319,7 +1319,7 @@ cssselect = ">=1.5.0,<2"
 exceptiongroup = ">=1.3.1"
 execnet = "2.1.2"
 fasteners = ">=0.20"
-filelock = ">=3.32.5"
+filelock = ">=3.32.6"
 h11 = "0.16.0"
 idna = ">=3.19"
 iniconfig = "2.3.0"
@@ -1335,7 +1335,7 @@ parse = ">=1.22.1"
 parse-type = ">=0.6.6"
 pdbp = ">=1.8.2"
 pip = ">=26.2.1"
-platformdirs = ">=4.11.7"
+platformdirs = ">=4.11.8"
 pluggy = "1.6.0"
 psutil = ">=7.2.2"
 PyAutoGUI = {version = ">=0.9.54", markers = "platform_system == \"Linux\""}
@@ -1354,7 +1354,7 @@ pyyaml = ">=6.0.3"
 requests = ">=2.34.2,<2.35.0"
 rich = ">=15.0.0,<16"
 sbvirtualdisplay = ">=1.4.0"
-selenium = "4.48.0"
+selenium = "4.49.0"
 setuptools = ">=84.0.0"
 six = ">=1.17.0"
 sniffio = "1.3.1"
@@ -1372,7 +1372,7 @@ wsproto = ">=1.3.2,<1.4.0"
 
 [package.extras]
 allure = ["allure-behave (>=2.16.0)", "allure-pytest (>=2.16.0)", "allure-python-commons (>=2.16.0)"]
-coverage = ["coverage (>=7.16.0)", "pytest-cov (>=7.1.0)"]
+coverage = ["coverage (>=7.16.1)", "pytest-cov (>=7.1.0)"]
 flake8 = ["flake8 (==7.3.0)", "mccabe (==0.7.0)", "pycodestyle (==2.14.0)", "pyflakes (==3.4.0)"]
 mcp = ["mcp[cli] (>=2.1.1,<3.0.0)"]
 mss = ["mss (==10.2.0)"]
@@ -1382,7 +1382,7 @@ pip-system-certs = ["pip-system-certs (>=4.0) ; platform_system == \"Windows\""]
 playwright = ["greenlet (>=3.5.5)", "playwright (>=1.62.0)", "pyee (>=13.0.1)"]
 proxy = ["proxy.py (==2.4.3)"]
 pyautogui = ["PyAutoGUI (>=0.9.54) ; platform_system != \"Linux\""]
-uv = ["uv (>=0.12.9)"]
+uv = ["uv (>=0.12.14)"]
 
 [[package]]
 name = "setuptools"
@@ -1706,4 +1706,4 @@ h11 = ">=0.16.0,<1"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.14"
-content-hash = "b686010f1e2142282db3bfe95d1e288a986de03b228624b66d19946db207b0b1"
+content-hash = "71e4c1f9138b8053da51a6c2d818ff5fb5a9388d5f9be349329db917db9cc8bf"
